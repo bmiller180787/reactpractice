@@ -1,14 +1,12 @@
-import Header from "./components/Header";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
+
+import Button from "./components/Button";
+import Character from "./components/Character";
 
 
 const App = () => {
     return (
         <>
-            <Header />
-            <Content />
-            <Footer />
+            <Character />
         </>
     )
 }
